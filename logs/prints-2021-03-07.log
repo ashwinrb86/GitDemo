@@ -1,0 +1,7 @@
+00:24:53.803 [TestNG-tests-2] INFO  resources.base - Log in successful Home Page
+00:24:58.229 [TestNG-tests-1] INFO  resources.base - Arrived at Landing Page
+00:24:58.267 [TestNG-tests-1] INFO  resources.base - FEATURED COURSES title is visible on Landing Page
+00:24:58.380 [TestNG-tests-1] INFO  resources.base - Browser closed
+00:25:01.148 [TestNG-tests-2] INFO  resources.base - Log in successful Home Page
+18:30:17.872 [TestNG-tests-1] INFO  resources.base - driver initialised
+18:30:18.458 [TestNG-tests-1] INFO  resources.base - Arrived at Landing Page

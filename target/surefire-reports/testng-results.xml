@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15764" started-at="2021-03-01T15:57:06 GMT" finished-at="2021-03-01T15:57:22 GMT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15764" started-at="2021-03-01T15:57:06 GMT" finished-at="2021-03-01T15:57:22 GMT">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:Academy.ValidateTitle@24aed80c]" name="startbrowser" is-config="true" duration-ms="1258" started-at="2021-03-01T15:57:08 GMT" finished-at="2021-03-01T15:57:09 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.ValidateTitle@24aed80c]" name="basePageNavigation" duration-ms="3275" started-at="2021-03-01T15:57:09 GMT" data-provider="getData" finished-at="2021-03-01T15:57:12 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashiwn.bidrimath@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-ristricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.ValidateTitle@24aed80c]" name="basePageNavigation" duration-ms="1833" started-at="2021-03-01T15:57:12 GMT" data-provider="getData" finished-at="2021-03-01T15:57:14 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ristricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidateTitle@24aed80c]" name="teardown" is-config="true" duration-ms="89" started-at="2021-03-01T15:57:22 GMT" finished-at="2021-03-01T15:57:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateTitle -->
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:Academy.HomePage@3a52dba3]" name="startbrowser" is-config="true" duration-ms="1747" started-at="2021-03-01T15:57:06 GMT" finished-at="2021-03-01T15:57:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3a52dba3]" name="basePageNavigation" duration-ms="4735" started-at="2021-03-01T15:57:14 GMT" data-provider="getData" finished-at="2021-03-01T15:57:19 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashiwn.bidrimath@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-ristricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3a52dba3]" name="basePageNavigation" duration-ms="2727" started-at="2021-03-01T15:57:19 GMT" data-provider="getData" finished-at="2021-03-01T15:57:22 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ristricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@3a52dba3]" name="teardown" is-config="true" duration-ms="71" started-at="2021-03-01T15:57:22 GMT" finished-at="2021-03-01T15:57:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

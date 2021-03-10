@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.478" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="//Users//ashwinbidrimath//Downloads//chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ashwinbidrimath/eclipse-workspace/E2EProject/target/test-classes:/Users/ashwinbidrimath/eclipse-workspace/E2EProject/target/classes:/Users/ashwinbidrimath/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ashwinbidrimath/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ashwinbidrimath/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ashwinbidrimath/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ashwinbidrimath/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ashwinbidrimath/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ashwinbidrimath/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ashwinbidrimath/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ashwinbidrimath/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ashwinbidrimath/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ashwinbidrimath/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/ashwinbidrimath/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/ashwinbidrimath/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/ashwinbidrimath/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ashwinbidrimath/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ashwinbidrimath/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/ashwinbidrimath/eclipse-workspace/E2EProject/target/surefire/surefirebooter8894207569271576654.jar /Users/ashwinbidrimath/eclipse-workspace/E2EProject/target/surefire 2021-03-01T15-57-05_278-jvmRun1 surefire7905990076931847544tmp surefire_07263970054840267494tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/ashwinbidrimath/eclipse-workspace/E2EProject/target/test-classes:/Users/ashwinbidrimath/eclipse-workspace/E2EProject/target/classes:/Users/ashwinbidrimath/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ashwinbidrimath/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ashwinbidrimath/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ashwinbidrimath/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ashwinbidrimath/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ashwinbidrimath/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ashwinbidrimath/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ashwinbidrimath/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ashwinbidrimath/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ashwinbidrimath/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ashwinbidrimath/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ashwinbidrimath/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/ashwinbidrimath/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/ashwinbidrimath/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/ashwinbidrimath/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ashwinbidrimath/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ashwinbidrimath/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/Users/ashwinbidrimath/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ashwinbidrimath"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/ashwinbidrimath/eclipse-workspace/E2EProject"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/ashwinbidrimath/eclipse-workspace/E2EProject/target/surefire/surefirebooter8894207569271576654.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="ashwinbidrimath"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ashwinbidrimath/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2v/7zqrwh6x7_q27mz5jjzb6n8r0000gn/T/"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="/Users/ashwinbidrimath/eclipse-workspace/E2EProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/ashwinbidrimath/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="/Users/ashwinbidrimath/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="basePageNavigation[ashiwn.bidrimath@gmail.com, Rahul@123, Non-ristricted user](1)" classname="Academy.ValidateTitle" time="3.247">
+    <system-out><![CDATA[chrome
+http://www.qaclickacademy.com/
+chrome
+http://www.qaclickacademy.com/
+FEATURED COURSES
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 3248
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 01, 2021 3:57:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 30231
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 01, 2021 3:57:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation[abc@gmail.com, abc@123, Ristricted user](2)" classname="Academy.ValidateTitle" time="1.832">
+    <system-out><![CDATA[FEATURED COURSES
+]]></system-out>
+  </testcase>
+  <testcase name="basePageNavigation[ashiwn.bidrimath@gmail.com, Rahul@123, Non-ristricted user](1)" classname="Academy.HomePage" time="4.736"/>
+  <testcase name="basePageNavigation[abc@gmail.com, abc@123, Ristricted user](2)" classname="Academy.HomePage" time="2.727"/>
+</testsuite>
